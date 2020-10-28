@@ -46,8 +46,8 @@ export default function Alert({ preview }) {
           )}
          <div className="flex item-center  ">
          <a href={`https://ciliumgroup.com/contact.html`} className="outline-none">
-         <button className="block bg-blue-800 text-yellow-600 font-bold border border-bold 
-          border-yellow-600 hover:bg-yellow-700 hover:text-white rounded-full py-2 px-3 mt-10 text-2x1 outline-none">
+         <button className="block bg-blue-800 text-yellow-500 font-bold border border-bold 
+          border-yellow-500 hover:bg-yellow-500 hover:text-white rounded-full py-2 px-3 mt-10 text-2x1 outline-none">
           Get in touch
           </button>
          </a>

@@ -1,12 +1,14 @@
-import Alert from '../components/alert'
-import Footer from '../components/footer'
-import Meta from '../components/meta'
+import Alert from './alert'
+import Footer from './footer'
+import Meta from './meta'
+import 'lazysizes'
+import 'lazysizes/plugins/parent-fit/ls.parent-fit'
 
 export default function Layout({ preview, children }) {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-gray-300 ">
+      <div className="min-h-screen bg-gray-300">
         <Alert preview={preview} />
         <main>{children}</main>
       </div>
